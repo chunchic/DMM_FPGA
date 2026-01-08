@@ -1,0 +1,165 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.841088",
+   "Default View_TopLeft":"1108,1346",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 7 -x 2170 -y 290 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 730 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -x 860 -y 490 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -x 1270 -y 500 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 410 -y 490 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 120 -y 720 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 410 -y 670 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 4 -x 1270 -y 250 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 1660 -y 80 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -x 2020 -y 150 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 5 -x 1660 -y 460 -defaultsOSRD
+preplace inst axi_bram_ctrl_1_bram -pg 1 -lvl 6 -x 2020 -y 530 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1660 -y 300 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 6 -x 2020 -y 1820 -defaultsOSRD
+preplace inst test_6_0 -pg 1 -lvl 5 -x 1660 -y 1810 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 1 5 220 410 620 390 1120 70 1440 670 1870
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 1 620 520n
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 2 610 400 1100J
+preplace netloc mdm_1_debug_sys_rst 1 1 2 230 420 590
+preplace netloc sys_clock_1 1 0 1 NJ 730
+preplace netloc reset_1 1 0 2 20 650 NJ
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 3 600J 380 1100 60 1450
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 4 2 1460 2950 1860
+preplace netloc axi_bram_ctrl_1_bram_doutb 1 4 2 1430 2960 1890
+preplace netloc test_6_0_bram_addr_b 1 5 1 1880 110n
+preplace netloc test_6_0_bram_en_b 1 5 1 N 750
+preplace netloc test_6_0_start_solving 1 5 1 N 770
+preplace netloc test_6_0_state 1 5 1 N 790
+preplace netloc test_6_0_solution 1 5 1 N 810
+preplace netloc test_6_0_steps 1 5 1 N 830
+preplace netloc test_6_0_clause_counter 1 5 1 N 850
+preplace netloc test_6_0_clause_counter_total 1 5 1 N 870
+preplace netloc test_6_0_start 1 5 1 N 890
+preplace netloc test_6_0_done 1 5 1 N 910
+preplace netloc test_6_0_check 1 5 1 N 930
+preplace netloc test_6_0_check_clauses 1 5 1 N 970
+preplace netloc test_6_0_check_out 1 5 1 N 950
+preplace netloc test_6_0_valid_in_1 1 5 1 N 990
+preplace netloc test_6_0_check_v_new 1 5 1 N 1010
+preplace netloc test_6_0_check_x_new 1 5 1 N 1030
+preplace netloc test_6_0_valid_out_s1 1 5 1 N 1050
+preplace netloc test_6_0_valid_out_s2 1 5 1 N 1070
+preplace netloc test_6_0_valid_out_s3 1 5 1 N 1090
+preplace netloc test_6_0_valid_out_q5 1 5 1 N 1110
+preplace netloc test_6_0_valid_out_q8 1 5 1 N 1130
+preplace netloc test_6_0_valid_out_q16 1 5 1 N 1150
+preplace netloc test_6_0_valid_out_s5 1 5 1 N 1170
+preplace netloc test_6_0_valid_out_s6 1 5 1 N 1190
+preplace netloc test_6_0_valid_out_q6 1 5 1 N 1210
+preplace netloc test_6_0_valid_out_q20 1 5 1 N 1230
+preplace netloc test_6_0_valid_out_s7 1 5 1 N 1250
+preplace netloc test_6_0_valid_out_s8 1 5 1 N 1270
+preplace netloc test_6_0_valid_out_s9 1 5 1 N 1290
+preplace netloc test_6_0_valid_out_s10 1 5 1 N 1310
+preplace netloc test_6_0_valid_out_s11 1 5 1 N 1330
+preplace netloc test_6_0_valid_out_s12 1 5 1 N 1350
+preplace netloc test_6_0_valid_out_s13 1 5 1 N 1370
+preplace netloc test_6_0_valid_out_s14 1 5 1 N 1390
+preplace netloc test_6_0_valid_out_s15 1 5 1 N 1410
+preplace netloc test_6_0_valid_out_s16 1 5 1 N 1430
+preplace netloc test_6_0_valid_out_s17 1 5 1 N 1450
+preplace netloc test_6_0_valid_out_s18 1 5 1 N 1470
+preplace netloc test_6_0_valid_out_s19 1 5 1 N 1490
+preplace netloc test_6_0_valid_out_s20 1 5 1 N 1510
+preplace netloc test_6_0_valid_out_s21 1 5 1 N 1530
+preplace netloc test_6_0_valid_out_s22 1 5 1 N 1550
+preplace netloc test_6_0_valid_out_s26 1 5 1 N 1570
+preplace netloc test_6_0_valid_out_s27 1 5 1 N 1590
+preplace netloc test_6_0_valid_out_s28 1 5 1 N 1610
+preplace netloc test_6_0_valid_out_v_new 1 5 1 N 1630
+preplace netloc test_6_0_v1_index 1 5 1 N 1650
+preplace netloc test_6_0_v2_index 1 5 1 N 1670
+preplace netloc test_6_0_v3_index 1 5 1 N 1690
+preplace netloc test_6_0_v1_sign 1 5 1 N 1710
+preplace netloc test_6_0_v2_sign 1 5 1 N 1730
+preplace netloc test_6_0_v3_sign 1 5 1 N 1750
+preplace netloc test_6_0_C_m 1 5 1 N 1770
+preplace netloc test_6_0_G_n_1 1 5 1 N 1790
+preplace netloc test_6_0_G_n_2 1 5 1 N 1810
+preplace netloc test_6_0_G_n_3 1 5 1 N 1830
+preplace netloc test_6_0_R_n 1 5 1 N 1850
+preplace netloc test_6_0_G_n_2_full_2 1 5 1 N 1870
+preplace netloc test_6_0_G_n_3_full_2 1 5 1 N 1890
+preplace netloc test_6_0_G_R_1_full_2 1 5 1 N 1910
+preplace netloc test_6_0_max_v_index_1 1 5 1 N 1930
+preplace netloc test_6_0_max_v_index_2 1 5 1 N 1950
+preplace netloc test_6_0_max_v_index_3 1 5 1 N 1970
+preplace netloc test_6_0_test_v_1 1 5 1 N 1990
+preplace netloc test_6_0_test_v_2 1 5 1 N 2010
+preplace netloc test_6_0_test_v_3 1 5 1 N 2030
+preplace netloc test_6_0_test_v_4 1 5 1 N 2050
+preplace netloc test_6_0_test_v_5 1 5 1 N 2070
+preplace netloc test_6_0_test_v_1_new 1 5 1 N 2090
+preplace netloc test_6_0_test_v_2_new 1 5 1 N 2110
+preplace netloc test_6_0_test_v_3_new 1 5 1 N 2130
+preplace netloc test_6_0_test_v_4_new 1 5 1 N 2150
+preplace netloc test_6_0_test_v_5_new 1 5 1 N 2170
+preplace netloc test_6_0_test_v_1_new_tmp 1 5 1 N 2190
+preplace netloc test_6_0_test_v_2_new_tmp 1 5 1 N 2210
+preplace netloc test_6_0_test_v_3_new_tmp 1 5 1 N 2230
+preplace netloc test_6_0_test_v_4_new_tmp 1 5 1 N 2250
+preplace netloc test_6_0_test_v_5_new_tmp 1 5 1 N 2270
+preplace netloc test_6_0_test_current_x_l 1 5 1 N 2290
+preplace netloc test_6_0_test_current_x_s 1 5 1 N 2310
+preplace netloc test_6_0_funct_x_l 1 5 1 N 2330
+preplace netloc test_6_0_funct_x_s 1 5 1 N 2350
+preplace netloc test_6_0_euler_x_l 1 5 1 N 2370
+preplace netloc test_6_0_euler_x_s 1 5 1 N 2390
+preplace netloc test_6_0_new_x_l 1 5 1 N 2410
+preplace netloc test_6_0_new_x_s 1 5 1 N 2430
+preplace netloc test_6_0_all_full_Gs_1 1 5 1 N 2450
+preplace netloc test_6_0_all_full_Gs_2 1 5 1 N 2470
+preplace netloc test_6_0_all_full_Gs_3 1 5 1 N 2490
+preplace netloc test_6_0_all_full_Gs_4 1 5 1 N 2510
+preplace netloc test_6_0_all_full_Gs_5 1 5 1 N 2530
+preplace netloc test_6_0_all_full_Gs_last 1 5 1 N 2550
+preplace netloc test_6_0_all_full_Gs_second_last 1 5 1 N 2570
+preplace netloc test_6_0_all_full_G_R_temp 1 5 1 N 2590
+preplace netloc test_6_0_all_full_Gs_temp_2 1 5 1 N 2610
+preplace netloc test_6_0_all_full_Gs_temp_3 1 5 1 N 2630
+preplace netloc test_6_0_all_full_Gs_tmp 1 5 1 N 2650
+preplace netloc test_6_0_test_v_new_tmp 1 5 1 N 2670
+preplace netloc test_6_0_test_v_tmp 1 5 1 N 2690
+preplace netloc test_6_0_qwe1 1 5 1 N 2710
+preplace netloc test_6_0_qwe2 1 5 1 N 2730
+preplace netloc test_6_0_qwe3 1 5 1 N 2750
+preplace netloc test_6_0_qwe4 1 5 1 N 2770
+preplace netloc test_6_0_qwe5 1 5 1 N 2790
+preplace netloc test_6_0_qwe6 1 5 1 N 2810
+preplace netloc test_6_0_qwe7 1 5 1 N 2830
+preplace netloc test_6_0_qwe8 1 5 1 N 2850
+preplace netloc test_6_0_qwe9 1 5 1 N 2870
+preplace netloc test_6_0_qwe10 1 5 1 N 2890
+preplace netloc microblaze_0_dlmb_1 1 3 1 N 470
+preplace netloc microblaze_0_ilmb_1 1 3 1 N 490
+preplace netloc microblaze_0_debug 1 2 1 N 480
+preplace netloc microblaze_0_M_AXI_DP 1 3 1 1110 130n
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 4 1 1430 220n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 N 70
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 5 1 N 90
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 4 1 1460 60n
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 5 1 N 450
+preplace netloc axi_bram_ctrl_1_BRAM_PORTB 1 5 1 N 470
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 4 1 1420 260n
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 4 1 N 280
+preplace netloc axi_uartlite_0_UART 1 5 2 NJ 290 NJ
+levelinfo -pg 1 0 120 410 860 1270 1660 2020 2170
+pagesize -pg 1 -db -bbox -sgen -120 0 2290 2990
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"4",
+   "da_bram_cntlr_cnt":"4",
+   "da_clkrst_cnt":"1",
+   "da_mb_cnt":"1"
+}

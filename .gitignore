@@ -1,0 +1,37 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.jou
+
+# Vivado generated
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.srcs/sources_1/ip/
+*.srcs/sources_1/bd/**/ip/
+*.gen/
+
+# Generated outputs (usually)
+*.bit
+*.bin
+*.mcs
+*.dcp
+*.ltx
+*.rpt
+*.str
+*.xml
+
+# Python/build junk if you have scripts
+__pycache__/
+*.pyc
+
