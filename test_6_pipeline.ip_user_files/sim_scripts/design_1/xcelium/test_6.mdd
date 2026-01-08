@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER test_6
+	OPTION supported_peripherals = (test_6);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = test_6;
+END DRIVER

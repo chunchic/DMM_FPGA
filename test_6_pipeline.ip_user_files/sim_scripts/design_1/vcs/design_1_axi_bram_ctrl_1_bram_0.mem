@@ -1,0 +1,13 @@
+// Mem file initialization records.
+//
+// SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+// Vivado v2023.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+// Created on Wednesday July 02, 2025 - 05:04:47 pm, from:
+//
+//     Map file     - /home/chunchic/Documents/vitis_new_projects/test_6_pipeline/test_6_pipeline.gen/sources_1/bd/design_1/design_1.bmm
+//     Data file(s) - /home/chunchic/Documents/vitis_new_projects/test_6_pipeline/test_6_pipeline.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'design_1_i_microblaze_0.design_1_i_axi_bram_ctrl_1_bram_8K_18_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
